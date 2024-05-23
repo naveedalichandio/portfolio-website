@@ -55,9 +55,11 @@ const skillsSection = {
   skills: [
     emoji("⚡ Research, design, and analyze tokenomics for cryptocurrencies"),
     emoji(
-      "⚡ Design, develop, and implement gas efficient and secure smart contracts"
+      "⚡ Design, Develop & maintain highly scalable, secure and optimized blockchain projects"
     ),
-    emoji("⚡ Deploy, test, and integrate smart contracts with Dapps"),
+    emoji(
+      "⚡ Develop, test, and integrate smart contracts with Dapps, using Web3js and EthersJs"
+    ),
     emoji(
       "⚡ Integration of third party services such as Uniswap / Binance / Infura / IPFS / 3rd web"
     ),
@@ -68,10 +70,6 @@ const skillsSection = {
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
-    {
-      skillName: "Ethereum",
-      fontAwesomeClassname: "fab fa-ethereum"
-    },
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
@@ -93,8 +91,28 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
+      skillName: "Blockchain",
+      fontAwesomeClassname: "fas fa-link"
+    },
+    {
+      skillName: "Ethereum",
+      fontAwesomeClassname: "fab fa-ethereum"
+    },
+    {
+      skillName: "Smart Contract",
+      fontAwesomeClassname: "fas fa-file-contract"
+    },
+    {
+      skillName: "Web3Js",
+      fontAwesomeClassname: "fas fa-code"
+    },
+    {
+      skillName: "EthersJs",
+      fontAwesomeClassname: "fas fa-code"
+    },
+    {
+      skillName: "Solidity",
+      fontAwesomeClassname: "fas fa-code"
     },
     {
       skillName: "aws",
@@ -103,10 +121,6 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "firebase",
       fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
     },
     {
       skillName: "docker",
@@ -151,6 +165,14 @@ const techStack = {
     {
       Stack: "Blockchain/EVM based", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
+    },
+    {
+      Stack: "Solidity",
+      progressPercentage: "90%"
+    },
+    {
+      Stack: "ReactJs",
+      progressPercentage: "80%"
     },
     {
       Stack: "Backend/NodeJs",
